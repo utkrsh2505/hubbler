@@ -1,0 +1,26 @@
+.main {
+  display: flex;
+}
+
+.main_left {
+  width: 30%;
+  height: 600px;
+  background-color: lightgray;
+}
+.main_right {
+  width: 70%;
+  height: 600px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: rgb(238, 244, 244);
+}
+.nav {
+  background-color: lightgrey;
+  height: 50px;
+  width: 100%;
+}
+.nav > button {
+  background-color: rgb(206, 199, 199);
+  border: none;
+  padding: 2vh;
+  margin-left: 80%;
+}
