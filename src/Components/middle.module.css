@@ -1,6 +1,29 @@
 input {
-  border: none;
+  width: 150px;
+  padding: 0.5vh;
 }
 .add_new_btn {
   margin-top: 1vh;
+}
+.another {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 300px;
+  border: 1px solid black;
+  padding: 1vh;
+}
+.another_parent {
+  display: flex;
+  width: 350px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1vh;
+}
+.rule_input {
+  margin: 1vh 0;
+  border: 1px solid gray;
+  width: 150px;
+  background-color: rgb(242, 237, 237);
+  padding: 0.5vh;
 }
